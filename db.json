@@ -1,0 +1,89 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "username": "steve1",
+      "password": "steve1234",
+      "firstName": "Steve",
+      "lastName": "Smith",
+      "workEmail": "steve@examplecompany.com",
+      "personalEmail": "steve@examplepersonal.com",
+      "remainingAnnualLeave": 27,
+      "employeeRole": "Trainee"
+    },
+    {
+      "id": 2,
+      "username": "alex2",
+      "password": "alex1234",
+      "firstName": "Alex",
+      "lastName": "Rogers",
+      "workEmail": "alex@examplecompany.com",
+      "personalEmail": "alex@examplepersonal.com",
+      "remainingAnnualLeave": 12,
+      "employeeRole": "Consultant"
+    },
+    {
+      "id": 3,
+      "username": "martin3",
+      "password": "martin1234",
+      "firstName": "Martin",
+      "lastName": "Rockwell",
+      "workEmail": "martin@examplecompany.com",
+      "personalEmail": "martin@examplepersonal.com",
+      "remainingAnnualLeave": 0,
+      "employeeRole": "Manager"
+    },
+    {
+      "id": 4,
+      "username": "paul4",
+      "password": "paul1234",
+      "firstName": "paul",
+      "lastName": "dirac",
+      "workEmail": "paul@examplecompany.com",
+      "personalEmail": "paul@examplepersonal.com",
+      "remainingAnnualLeave": 8,
+      "employeeRole": "Administrator"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Welcome to FDM!",
+      "body": "We home you enjoy the onboarding process and meeting your colleagues",
+      "publishedAt": "2021-04-08",
+      "img": "",
+      "likes": 39
+    },
+    {
+      "id": "2",
+      "title": "Remember to finish onboarding!",
+      "body": "",
+      "publishedAt": "2020-02-01",
+      "img": "",
+      "likes": 142
+    },
+    {
+      "title": "Created using POST.",
+      "body": "Test from admin side of the POST request to json server",
+      "publishedAt": "2020-01-01",
+      "img": "",
+      "id": "BiDepX5"
+    }
+  ],
+  "events": [
+    {
+      "belongsTo": 1,
+      "eventName": "Meeting",
+      "date": "2021-05-01",
+      "time": "11:00"
+    }
+  ],
+  "annualLeaves": [
+    {
+      "employeeID": 1,
+      "start": "2021-05-05",
+      "end": "2021-05-12",
+      "pending": true
+    }
+  ]
+}
